@@ -618,7 +618,7 @@
         "title": "Janela das Andorinhas",
         "description": "Um passeio por uma das mais bonitas zonas rurais do distrito de Riograndina em Nova Friburgo.",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/5f7937e0-b13c-460a-a586-a14bf243ec5a",
-        "placement": "left",
+        "placement": "right",
         "cta": [
           {
             "style": "Outline",
