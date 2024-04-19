@@ -289,7 +289,7 @@
           "links": [
             {
               "label": "Home",
-              "url": "#"
+              "url": "/"
             }
           ],
           "buttons": [
@@ -334,7 +334,7 @@
           "links": [
             {
               "label": "Home",
-              "url": "#"
+              "url": "/"
             }
           ],
           "buttons": [
@@ -380,7 +380,7 @@
           "links": [
             {
               "label": "Home",
-              "url": "#"
+              "url": "/"
             }
           ],
           "buttons": [
@@ -609,7 +609,7 @@
           "links": [
             {
               "label": "Home",
-              "url": "#"
+              "url": "/"
             }
           ],
           "buttons": [
