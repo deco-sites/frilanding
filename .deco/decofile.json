@@ -296,6 +296,9 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
+      },
+      {
+        "__resolveType": "site/sections/HeroTest.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
