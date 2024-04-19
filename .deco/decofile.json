@@ -474,8 +474,7 @@
             "text": "Ver mais"
           }
         ],
-        "tagline": "lugares",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/9433c030-6282-4e63-9d53-bc4150857bc0"
+        "tagline": "lugares"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
