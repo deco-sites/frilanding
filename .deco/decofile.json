@@ -512,6 +512,20 @@
         ]
       },
       {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "title": "Janela das Andorinhas",
+        "description": "Um passeio por uma das mais bonitas zonas rurais do distrito de Riograndina em Nova Friburgo.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/e5cecaaf-48be-4bfd-923b-79a0fbb1c877",
+        "placement": "left",
+        "cta": [
+          {
+            "style": "Outline",
+            "href": "/janelaandorinha",
+            "text": "Ver mais"
+          }
+        ]
+      },
+      {
         "__resolveType": "site/sections/BlogPosts.tsx",
         "title": "Artigos",
         "description": " ",
@@ -554,9 +568,6 @@
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
         }
-      },
-      {
-        "__resolveType": "site/sections/HeroTest.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -625,6 +636,51 @@
         "title": "<p>Rio bonito</p>",
         "cta": [],
         "description": "Que tal um passeio em uma \"vila\" reservada,  em meio à natureza totalmente preservada com belas paisagens? Assim é a localidade de Rio Bonito de Lumiar, mais um dos tesouros de Nova Friburgo emoldurados pela Mata Atlântica. A localidade é  um agradável povoado na zona rural de Nova Friburgo localizado no vale do Macaé, na  Área de Proteção Ambiental (APA) de Macaé de Cima, próximo ao distrito de  Lumiar e as localidades de Toca da Onça e Galdinópolis. O nome  deve-se ao rio Bonito, afluente do rio Macaé que se junta ao rio principal no famoso \"Encontro dos Rios\", em Lumiar.  A cultura local é rica, e sua produção agrícola voltada para a subsistência e tem como principais alimentos a mandioca e o inhame, por isso a localidade é conhecida como \"Terra do Inhame\"."
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {
+          "title": "Frilanding",
+          "description": "um lugar para se visitar",
+          "instructions": "<p> </p>"
+        },
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
+        }
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "pages-janela%20das%20andorinhas-790606": {
+    "name": "janela das andorinhas",
+    "path": "/janelaandorinha",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/373fe3a6-7fa6-4b56-864e-088f3bbb1acd",
+          "alt": "Logo"
+        },
+        "navigation": {
+          "links": [
+            {
+              "label": "Home",
+              "url": "/"
+            }
+          ],
+          "buttons": [
+            {
+              "href": "#",
+              "text": "Artigos"
+            }
+          ]
+        }
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Janela das andorinhas</p>",
+        "cta": [],
+        "description": "Um passeio por uma das mais bonitas zonas rurais do distrito de Riograndina em Nova Friburgo."
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
