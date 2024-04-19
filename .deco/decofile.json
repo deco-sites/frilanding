@@ -280,9 +280,6 @@
         "description": "Um pouco da história de Nova Friburgo começando por sua herança geológica que tem milhares de anos."
       },
       {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
         "placement": "right",
         "title": "O PARQUE ECOLÓGICO DO CÃO SENTADO",
@@ -310,6 +307,9 @@
             "text": "Ver mais"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/BlogPosts.tsx"
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
