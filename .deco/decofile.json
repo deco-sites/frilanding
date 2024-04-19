@@ -625,7 +625,8 @@
             "href": "/janelaandorinha",
             "text": "Ver mais"
           }
-        ]
+        ],
+        "tagline": "lugares"
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx",
