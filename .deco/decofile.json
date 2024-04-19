@@ -427,7 +427,7 @@
   },
   "pages-c%C3%A3o%20sentado-33136": {
     "name": "cão sentado",
-    "path": "/cao-sentado",
+    "path": "/caosentado",
     "sections": [
       {
         "__resolveType": "site/sections/Header.tsx",
@@ -534,9 +534,6 @@
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
         }
-      },
-      {
-        "__resolveType": "site/sections/HeroTest.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
