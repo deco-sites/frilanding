@@ -406,5 +406,23 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "collections/blog/authors/9fa124405b00": {
+    "name": "collections/blog/authors/9fa124405b00",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {}
+  },
+  "collections/blog/posts/90bc558ee6bf": {
+    "name": "collections/blog/posts/90bc558ee6bf",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "categories": [],
+      "title": "teste",
+      "excerpt": "descricao",
+      "date": "2024-04-19",
+      "slug": "artigo1",
+      "content": "<p>teste artigo 1</p>"
+    }
   }
 }
