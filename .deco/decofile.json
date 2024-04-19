@@ -280,6 +280,9 @@
         "description": "Um pouco da história de Nova Friburgo começando por sua herança geológica que tem milhares de anos."
       },
       {
+        "__resolveType": "site/sections/BlogPosts.tsx"
+      },
+      {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
         "placement": "right",
         "title": "O PARQUE ECOLÓGICO DO CÃO SENTADO",
@@ -309,16 +312,15 @@
         ]
       },
       {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {
+          "title": "Frilanding",
+          "description": "um lugar para se visitar",
+          "instructions": "<p> </p>"
+        },
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
+        }
       },
       {
         "__resolveType": "site/sections/HeroTest.tsx"
