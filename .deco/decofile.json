@@ -346,6 +346,14 @@
         }
       },
       {
+        "__resolveType": "site/sections/SingleHeader.tsx",
+        "title": "Cão sentado",
+        "description": "<p>O Parque do Cão Sentado em Nova Friburgo é um local único e que merece ser visitado por quem vem ao município. A história desse lugar como atrativo turístico começa em 1962 quando o mesmo foi criado e muito recentemente por força de lei foi elevado a Monumento Natural Municipal.</p>"
+      },
+      {
+        "__resolveType": "site/sections/SingleContent.tsx"
+      },
+      {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Cão sentado</p>",
         "cta": [],
