@@ -3,12 +3,13 @@ import Image from "apps/website/components/Image.tsx";
 
 export interface Post {
   title: string;
-  author: string;
-  excerpt: string;
+  author?: string;
+  excerpt?: string;
   image: ImageWidget;
-  date: string;
+  date?: string;
   readingTime?: string;
-  tags: string[];
+  tags?: string[];
+  link?: string;
 }
 
 export interface Props {
@@ -72,34 +73,36 @@ export default function BlogPosts({
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           {posts?.map((post) => (
             <div class="border border-secondary rounded-lg overflow-hidden">
-              <Image
-                width={640}
-                class="w-full object-fit z-10"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="p-6 space-y-4">
-                <div class="font-semibold">{post.readingTime}</div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+              <a class="group" href={post.link}>
+                <Image
+                  width={640}
+                  class="w-full object-fit z-10 transition scale-100 group-hover:scale-110"
+                  sizes="(max-width: 640px) 100vw, 30vw"
+                  src={post.image}
+                  alt={post.image}
+                  decoding="async"
+                  loading="lazy"
+                />
+                <div class="p-6 space-y-4">
+                  <div class="font-semibold">{post.readingTime}</div>
+                  <div class="space-y-2">
+                    <h3 class="text-2xl">{post.title}</h3>
+                    <p class="text-base">{post.excerpt}</p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    {post.tags?.map((tag) => (
+                      <div class="badge badge-lg badge-primary text-xs">
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span>{post.date}</span>
+                    <span>•</span>
+                    <span>{post.author}</span>
+                  </div>
                 </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.tags?.map((tag) => (
-                    <div class="badge badge-lg badge-primary text-xs">
-                      {tag}
-                    </div>
-                  ))}
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span>{post.date}</span>
-                  <span>•</span>
-                  <span>{post.author}</span>
-                </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
