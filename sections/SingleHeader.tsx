@@ -28,7 +28,7 @@ export default function SingleHeader({
           <div
             class="text-base md:text-md leading-[150%]"
             dangerouslySetInnerHTML={{
-              __html: title,
+              __html: description,
             }}>
           </div>
           {/* <div class="flex items-center gap-3"></div> */}
