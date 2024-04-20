@@ -79,16 +79,16 @@
       "__resolveType": "website/loaders/fonts/googleFonts.ts",
       "fonts": [
         {
+          "variations": [],
+          "family": "Albert Sans"
+        },
+        {
           "variations": [
             {
               "weight": "300"
             },
             {
-              "weight": "400",
-              "italic": false
-            },
-            {
-              "weight": "700"
+              "weight": "400"
             },
             {
               "weight": "500"
