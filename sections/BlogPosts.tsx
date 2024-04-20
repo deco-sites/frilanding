@@ -10,6 +10,7 @@ export interface Post {
   readingTime?: string;
   tags?: string[];
   link?: string;
+  anchorId: string;
 }
 
 export interface Props {
@@ -24,6 +25,7 @@ const DEFAULT_IMAGE =
 export default function BlogPosts({
   title = "Here's a component for you to showcase your blogposts",
   description = "This subheading is fully editable, remember?",
+  anchorId = "blog",
   posts = [
     {
       title: "Title of blogpost #1",
@@ -58,7 +60,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
+    <div id={anchorId} class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
       <div class="space-y-16">
         <div class="flex flex-col lg:flex-row gap-4 justify-between">
           <div class="space-y-6 lg:w-1/2">
@@ -76,7 +78,7 @@ export default function BlogPosts({
               <a class="group" href={post.link}>
                 <Image
                   width={640}
-                  class="w-full object-fit z-10 transition scale-100 group-hover:scale-110"
+                  class="w-full object-fit z-10 transition scale-100 group-hover:scale-110 pointer-events-none"
                   sizes="(max-width: 640px) 100vw, 30vw"
                   src={post.image}
                   alt={post.image}
