@@ -81,7 +81,17 @@
         {
           "variations": [
             {
+              "weight": "300"
+            },
+            {
+              "weight": "400",
+              "italic": false
+            },
+            {
               "weight": "500"
+            },
+            {
+              "weight": "700"
             }
           ],
           "family": "Albert Sans"
