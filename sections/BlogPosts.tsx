@@ -10,13 +10,13 @@ export interface Post {
   readingTime?: string;
   tags?: string[];
   link?: string;
-  anchorId: string;
 }
 
 export interface Props {
   title?: string;
   description?: string;
   posts?: Post[];
+  anchorId: string;
 }
 
 const DEFAULT_IMAGE =
