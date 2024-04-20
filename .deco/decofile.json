@@ -312,8 +312,16 @@
       "title": "teste",
       "excerpt": "descricao",
       "date": "2024-04-19",
-      "slug": "artigo1",
+      "slug": "/artigo1",
       "content": "<p>teste artigo 1</p>"
+    }
+  },
+  "collections/blog/posts/f94080f4430c": {
+    "name": "collections/blog/posts/f94080f4430c",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "categories": []
     }
   },
   "decohub": {
@@ -639,7 +647,7 @@
         ],
         "tagline": "lugares",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/9433c030-6282-4e63-9d53-bc4150857bc0",
-        "anchorId": "#one"
+        "anchorId": "one"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -653,7 +661,8 @@
             "text": "Ver mais",
             "href": "/riobonito"
           }
-        ]
+        ],
+        "anchorId": "two"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -668,7 +677,8 @@
             "text": "Ver mais"
           }
         ],
-        "tagline": "lugares"
+        "tagline": "lugares",
+        "anchorId": "three"
       },
       {
         "__resolveType": "Artigos #1"
