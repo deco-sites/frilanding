@@ -582,7 +582,8 @@
         "cta": [],
         "title": "<p>NOVA FRIBURGO</p>",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/432f30fa-59b3-4599-ab8c-422361a2d161",
-        "description": "Um pouco da história de Nova Friburgo começando por sua herança geológica que tem milhares de anos."
+        "description": "Um pouco da história de Nova Friburgo começando por sua herança geológica que tem milhares de anos.",
+        "anchor": "#one"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -597,7 +598,8 @@
           }
         ],
         "tagline": "lugares",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/9433c030-6282-4e63-9d53-bc4150857bc0"
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/9433c030-6282-4e63-9d53-bc4150857bc0",
+        "anchorId": "#one"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -662,7 +664,8 @@
             "excerpt": "seus melhores momentos em família no cenário mais do que perfeito.",
             "link": "/countryclub"
           }
-        ]
+        ],
+        "anchorId": "#artigos"
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
