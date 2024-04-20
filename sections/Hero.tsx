@@ -35,11 +35,11 @@ export default function HeroFlats({
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   image,
   placement = "left",
+  anchor = "",
   cta = [
     { id: "change-me-1", href: "/", text: "Change me", outline: false },
     { id: "change-me-2", href: "/", text: "Change me", outline: true },
   ],
-  anchor = "#one"
 }: Props) {
   return (
     <nav class="lg:container lg:mx-auto mx-4">
