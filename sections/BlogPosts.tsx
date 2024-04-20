@@ -16,7 +16,7 @@ export interface Props {
   title?: string;
   description?: string;
   posts?: Post[];
-  anchorId: string;
+  anchorId?: string;
 }
 
 const DEFAULT_IMAGE =
