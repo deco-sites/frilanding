@@ -308,7 +308,7 @@
           ],
           "buttons": [
             {
-              "href": "#",
+              "href": "/#artigos",
               "text": "Artigos"
             }
           ]
@@ -353,7 +353,7 @@
           ],
           "buttons": [
             {
-              "href": "#",
+              "href": "/#artigos",
               "text": "Artigos"
             }
           ]
@@ -417,17 +417,6 @@
         "description": "Um passeio por uma das mais bonitas zonas rurais do distrito de Riograndina em Nova Friburgo."
       },
       {
-        "__resolveType": "site/sections/Footer.tsx",
-        "subscribe": {
-          "title": "Frilanding",
-          "description": "um lugar para se visitar",
-          "instructions": "<p> </p>"
-        },
-        "logo": {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
-        }
-      },
-      {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/ce991283-d84e-4224-bea5-fbafbf135bbf",
         "title": "Plantações de caqui",
@@ -438,6 +427,20 @@
             "text": " "
           }
         ]
+      },
+      {
+        "__resolveType": "Artigos #1"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {
+          "title": "Frilanding",
+          "description": "um lugar para se visitar",
+          "instructions": "<p> </p>"
+        },
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6821/3d21a2d2-e7fe-4f85-9b20-bea86d262842"
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -461,7 +464,7 @@
           ],
           "buttons": [
             {
-              "href": "#",
+              "href": "/#artigos",
               "text": "Artigos"
             }
           ]
@@ -507,7 +510,7 @@
           ],
           "buttons": [
             {
-              "href": "#",
+              "href": "/#artigos",
               "text": "Artigos"
             }
           ]
@@ -587,7 +590,7 @@
           "buttons": [
             {
               "text": "Artigos",
-              "href": "/#23566421-0"
+              "href": "/#artigos"
             }
           ]
         }
