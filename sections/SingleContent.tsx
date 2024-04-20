@@ -11,7 +11,7 @@ export default function SingleContent({
 }: Props) {
   return (
     <div
-      class="container max-w-4xl"
+      class="container max-w-4xl single-content"
       dangerouslySetInnerHTML={{
         __html: description,
       }}>
