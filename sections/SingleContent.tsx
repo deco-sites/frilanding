@@ -6,6 +6,10 @@ export interface Props {
   description?: string;
 }
 
-export default function SingleContent() {
-  return <div class="container max-w-4xl">{description}</div>
+export default function SingleContent({
+  description = "Description",
+}: Props) {
+  return (
+    <div class="container max-w-4xl">{description}</div>
+  )
 }

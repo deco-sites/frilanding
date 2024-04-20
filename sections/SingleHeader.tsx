@@ -2,17 +2,16 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
+  title?: string;
   /**
    * @format rich-text
    * @default Click here to tweak this text however you want.
    */
-  title?: string;
   description?: string;
   /**
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
    */
   image?: ImageWidget;
-  anchor?: string;
 }
 
 export default function SingleHeader({
@@ -26,9 +25,12 @@ export default function SingleHeader({
           <div class="inline-block lg:text-5xl text-4xl leading-none font-medium">
             <p>{title}</p>
           </div>
-          <p class="text-base md:text-md leading-[150%]">
-            {description}
-          </p>
+          <div
+            class="text-base md:text-md leading-[150%]"
+            dangerouslySetInnerHTML={{
+              __html: title,
+            }}>
+          </div>
           {/* <div class="flex items-center gap-3"></div> */}
         </div>
       </div>
