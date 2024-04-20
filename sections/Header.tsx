@@ -69,7 +69,7 @@ export default function Haader({
     <nav class="container mx-auto lg:px-0 px-4">
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <Image src={logo.src || ""} width={134} height={39} alt={logo.alt} />
         </a>
 
         <label
@@ -101,9 +101,8 @@ export default function Haader({
                     id={item?.id}
                     href={item?.href}
                     target={item?.href.includes("http") ? "_blank" : "_self"}
-                    class={`font-normal btn btn-primary ${
-                      item.outline && "btn-outline"
-                    }`}
+                    class={`font-normal btn btn-primary ${item.outline && "btn-outline"
+                      }`}
                   >
                     {item?.text}
                   </a>
@@ -134,9 +133,8 @@ export default function Haader({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
+                class={`font-normal btn btn-primary ${item.outline && "btn-outline"
+                  }`}
               >
                 {item?.text}
               </a>
