@@ -19,14 +19,14 @@ export default function SingleHeader({
   description = "description",
 }: Props) {
   return (
-    <div class="flex flex-col items-center gap-8 lg:container lg:mx-auto mx-4 mb-14">
+    <div class="flex flex-col items-center gap-8 border-t border-b border-gray-300 bg-gray-50 mb-14">
       <div class="flex w-full xl:container xl:mx-auto mx-5 md:mx-10 py-6 z-10 flex-col items-center justify-center text-center">
-        <div class="mx-6 lg:mx-auto lg:w-full space-y-4 flex flex-col items-center justify-center lg:max-w-6xl">
+        <div class="mx-6 lg:mx-auto lg:w-full space-y-4 flex flex-col items-center justify-center lg:max-w-2xl">
           <div class="inline-block lg:text-5xl text-4xl leading-none font-medium">
             <p>{title}</p>
           </div>
           <div
-            class="text-base md:text-md leading-[150%]"
+            class="text-sm md:text-md leading-[150%]"
             dangerouslySetInnerHTML={{
               __html: description,
             }}>
