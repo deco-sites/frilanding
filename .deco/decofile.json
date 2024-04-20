@@ -708,5 +708,15 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "pages-teste-685024": {
+    "name": "teste",
+    "path": "/teste",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Hero.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
