@@ -116,7 +116,7 @@ export default function Footer({
               height={137}
               alt={logo.alt}
             /> */}
-            <svg width="auto" height="137px" viewBox="0 0 308 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="188.38px" height="137px" viewBox="0 0 308 224" fill="none" xmlns="http://www.w3.org/2000/svg">
               <mask id="mask0_43_384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="308" height="224">
                 <rect width="308" height="224" fill="#D9D9D9" />
               </mask>
